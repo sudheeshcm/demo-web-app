@@ -1,0 +1,126 @@
+  // variables
+  $background-grey: #f5f5f5;
+  $shadow-grey: lightgrey;
+  $hr-line-color: #e6e6e6;
+  .header-img {
+    background-image: url('./images/header.png');
+    width: 100%;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .footer-img {
+    background-image: url('./images/footer.png');
+    width: 100%;
+    height: 140px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .apply-main-body {
+    background-color: $background-grey;
+    box-sizing: border-box;
+    outline: 0;
+    overflow: hidden;
+    .form-area {
+      float: left;
+      width: 675px;
+      height: 100%;
+      .form-container {
+        padding: 30px;
+        box-shadow: 1px 1px 5px $shadow-grey;
+        margin: 50px 0px;
+        margin-left: 125px;
+        background-color: white;
+        height: 400px;
+
+        .input-grid {
+          width: 490px;
+          height: 150px;
+        }
+
+        .col-sm-5 {
+          height: 70px;
+          width: 245px;
+          padding: 5px;
+
+          .caret {
+            position: absolute;
+          }
+
+          .label {
+            color: darkgray;
+          }
+
+          .dropdown button {
+            width: 220px;
+            text-align: left;
+          }
+        }
+
+        .col-sm-4 {
+          a {
+            line-height: 3;
+            font-size: 12px;
+            padding-left: 5px;
+          }
+        }
+
+        .add-pgm-btn {
+          color: white;
+          font-size: 12px;
+          float: right;
+          margin-right: 20px;
+          width: 120px;
+        }
+
+        .continue-btn {
+          float: right;
+          margin-right: 20px;
+          color: white;
+          font-size: 12px;
+          background-color: lightgrey;
+          width: 120px;
+        }
+      }
+    }
+    .selected-pgms-area {
+      float: right;
+      width: 400px;
+      padding: 30px;
+      margin: 50px;
+      background-color: $background-grey;
+      font-family: monospace;
+      .heading {
+        color: darkslategray;
+        font-size: 15px;
+      }
+      hr {
+        margin-top: 2px;
+        margin-bottom: 20px;
+        width: 290px;
+        border: 0;
+        border-top: 1px solid $hr-line-color;
+        margin-left: 0;
+      }
+      .content {
+        width: 290px;
+        font-size: 14px;
+        color: #c4c4c4;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 899px) {
+    .apply-main-body {
+      height: 210px;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .apply-main-body {
+      height: 500px;
+    }
+  }

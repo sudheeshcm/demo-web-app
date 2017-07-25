@@ -4,14 +4,18 @@ import { RouterModule } from '@angular/router';
 import {
   MdButtonModule,
   MdInputModule,
-  MdProgressBarModule
+  MdProgressBarModule,
+  MdSelectModule
 } from '@angular/material';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { DashboardComponent } from './home/dashboard.component';
+import { DashboardComponent } from './home/dashboard/dashboard.component';
+import { ApplyOnlineComponent } from './home/apply-online/apply-online.component';
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
+import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
 
 @NgModule({
   imports: [
@@ -19,7 +23,7 @@ import { ProgressBarComponent } from './shared/progress-bar/progress-bar.compone
     RouterModule.forRoot([
       {
         path: '',
-        component: LoginComponent,
+        component: DashboardComponent,
         pathMatch: 'full'
       },
       {
@@ -29,18 +33,26 @@ import { ProgressBarComponent } from './shared/progress-bar/progress-bar.compone
       {
         path: 'dashboard',
         component: DashboardComponent
+      },
+      {
+        path: 'apply',
+        component: ApplyOnlineComponent
       }
     ]),
     NoopAnimationsModule,
+    AlertModule.forRoot(),
     MdButtonModule,
     MdInputModule,
-    MdProgressBarModule
+    MdProgressBarModule,
+    MdSelectModule
   ],
   declarations: [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    ApplyOnlineComponent,
+    DropdownBasicComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

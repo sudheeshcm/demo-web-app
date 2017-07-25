@@ -1,0 +1,82 @@
+<div class="apply-main">
+  <div class="header-img"></div>
+  <div class="apply-main-body">
+    <div class="form-area">
+      <div class="form-container">
+        <div class="header">Choose your Program</div>
+        <hr class="sep-line">
+        <div class="input-grid container-fluid">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="label">Division</div>
+              <dropdown-basic></dropdown-basic>
+            </div>
+            <div class="col-sm-5">
+              <div class="label">Country</div>
+                <div class="dropdown"> 
+                <md-select>
+                  <md-option value="spain">Spain</md-option>
+                  <md-option value="usa">USA</md-option>
+                  <md-option value="india">India</md-option>
+                </md-select>
+               </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="label">City</div>
+               <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Madrin
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                  <li><a href="#">Madrin</a></li>
+                  <li><a href="#">NY</a></li>
+                  <li><a href="#">Kochi</a></li>
+                </ul>
+              </div> 
+            </div>
+            <div class="col-sm-5">
+              <div class="label">Program</div>
+               <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Business, International
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                  <li><a href="#">Business, International</a></li>
+                  <li><a href="#">Business, Rural</a></li>
+                  <li><a href="#">Development</a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <span class="col-sm-4"><a href="#">Program Search</a></span>
+          <span class="col-sm-4"><a href="#">Request More Info</a></span>
+          <span class="col-sm-4">
+            <div class="btn btn-success add-pgm-btn">
+              ADD PROGRAM
+            </div>
+          </span>
+        </div>
+        <hr class="sep-line">
+        <div class="btn btn-default left continue-btn">
+          CONTINUE
+        </div>
+      </div>
+    </div>
+    <div class="selected-pgms-area">
+      <div class="heading">
+        Selected Program
+      </div>
+      <hr class="sep-line">
+      <div class="content">
+        You have not selected any programs yet.
+      </div>
+    </div>
+  </div>
+  <div class="footer-img"></div>
+</div>

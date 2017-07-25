@@ -1,3 +1,8 @@
+.login-main {
+    margin: auto;
+    width: 100%;
+}
+
 .login-form {
     width: 300px;
     height: 400px;
@@ -6,6 +11,8 @@
     vertical-align: middle;
     text-align: center;
     display: inline-block;
+    position: absolute;
+    left: 25%;
 }
 
 .login-btn {
