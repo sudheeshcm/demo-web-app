@@ -68,6 +68,9 @@
         cursor: pointer;
         outline: none;
         border-style: none;
+        position: absolute;
+        top: 240px;
+        left: 895px;
 
         &:active {
           background-color: rgba(137, 208, 81, 1);
@@ -94,6 +97,20 @@
         background-color: rgba(255, 255, 255, 1);
         border-left: 1px solid rgba(231, 231, 231, 1);
         border-right: 1px solid rgba(231, 231, 231, 1);
+
+        .column-text {
+          font-family: 'Open Sans';
+          font-size: 13px;
+          color: rgba(26, 36, 44, 1);
+          font-weight: 300;
+        }
+
+        .url-text {
+          color: rgb(192,194,195);
+          font-size: 11px;
+          font-family: 'Open sans';
+          font-weight: 400;
+        } 
       }
 
       .show-more {
