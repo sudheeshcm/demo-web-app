@@ -43,9 +43,10 @@
         height: 400px;
 
         .header {
-          font-family: monospace;
-          font-size: 20px;
-          color: darkslategray;
+          font-family: 'Montserrat';
+          font-size: 24px;
+          font-weight: 300;
+          color: rgba(26, 36, 44, 1);
         }
 
         .sep-line {
@@ -72,7 +73,10 @@
           }
 
           .label {
-            color: #7a7a7a;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            color: rgba(26, 36, 44, 1);
+            font-weight: 100;
           }
 
           .dropdown select {
@@ -81,8 +85,10 @@
             -webkit-appearance: none;
             border: 1px solid $hr-line-color;
             border-radius: $border-radius-normal;
+            font-family: 'Open Sans';
             font-size: 14px;
-            color: #7a7a7a;
+            color: rgba(26, 36, 44, 1);
+            font-weight: 100;
             background: url('./images/dropdown.png') no-repeat #f5f5f5 95% 10px;
             background-size: 15px;
             padding: 5px;
@@ -126,10 +132,10 @@
       padding: 30px 0px;
       margin: 50px 0px;
       background-color: $background-grey;
-      font-family: monospace;
       .heading {
-        color: darkslategray;
-        font-size: 15px;
+        color: #1a242c;
+        font-size: 16px;
+        font-family: 'Montserrat';
       }
       hr {
         margin-top: 2px;
@@ -141,8 +147,10 @@
       }
       .content {
         width: 290px;
-        font-size: 14px;
         color: #c4c4c4;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 100;
       }
     }
   }
