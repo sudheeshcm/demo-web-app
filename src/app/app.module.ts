@@ -14,6 +14,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { ApplyOnlineComponent } from './home/apply-online/apply-online.component';
+import { EditApplicationComponent } from './home/edit-application/edit-application.component';
+
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
 import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
 import { CustomizeComponent } from './home/customize/customize.component';
@@ -42,7 +44,12 @@ import { CustomizeComponent } from './home/customize/customize.component';
       {
         path: 'customize',
         component: CustomizeComponent
+      },
+      {
+        path: 'edit',
+        component: EditApplicationComponent
       }
+
     ]),
     NoopAnimationsModule,
     AlertModule.forRoot(),
@@ -58,7 +65,8 @@ import { CustomizeComponent } from './home/customize/customize.component';
     ProgressBarComponent,
     ApplyOnlineComponent,
     DropdownBasicComponent,
-    CustomizeComponent
+    CustomizeComponent,
+    EditApplicationComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
