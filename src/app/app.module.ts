@@ -16,6 +16,7 @@ import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { ApplyOnlineComponent } from './home/apply-online/apply-online.component';
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
 import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
+import { CustomizeComponent } from './home/customize/customize.component';
 
 @NgModule({
   imports: [
@@ -37,6 +38,10 @@ import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
       {
         path: 'apply',
         component: ApplyOnlineComponent
+      },
+      {
+        path: 'customize',
+        component: CustomizeComponent
       }
     ]),
     NoopAnimationsModule,
@@ -52,7 +57,8 @@ import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
     DashboardComponent,
     ProgressBarComponent,
     ApplyOnlineComponent,
-    DropdownBasicComponent
+    DropdownBasicComponent,
+    CustomizeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
