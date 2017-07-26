@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="7px" viewBox="0 0 9 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown_filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_a_Dashboard" transform="translate(-1360.000000, -687.000000)" fill="#575757">
+            <g id="Section-2" transform="translate(240.000000, 674.000000)">
+                <g id="Filter" transform="translate(1047.000000, 0.000000)">
+                    <path d="M76.9614007,13.3523862 C77.2494257,12.8833851 77.7153665,12.8816915 78.0044317,13.3523862 L81.2849039,18.6940916 C81.5729289,19.1630926 81.3657251,19.5432931 80.8144978,19.5432931 L74.1513346,19.5432931 C73.6035114,19.5432931 73.3918633,19.1647863 73.6809285,18.6940916 L76.9614007,13.3523862 Z" id="dropdown_filter" transform="translate(77.483016, 16.271647) scale(1, -1) translate(-77.483016, -16.271647) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
