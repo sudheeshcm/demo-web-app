@@ -78,6 +78,16 @@
 
     .list-container {
       margin-top: 24px;
+      .list-heading {
+        height: 50px;
+        background-color: rgba(249, 249, 249, 1);
+        border: 1px solid rgba(231, 231, 231, 1);
+        font-family: 'Open Sans';
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(26, 36, 44, 1);
+        text-align: left;
+      }
     }
   }
   .application-list-img {
