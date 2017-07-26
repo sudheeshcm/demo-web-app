@@ -92,7 +92,8 @@
       .list-item {
         height: 90px;
         background-color: rgba(255, 255, 255, 1);
-        border: 1px solid rgba(231, 231, 231, 1);
+        border-left: 1px solid rgba(231, 231, 231, 1);
+        border-right: 1px solid rgba(231, 231, 231, 1);
       }
 
       .show-more {
@@ -126,6 +127,21 @@
         height: 176px;
         background-color: rgba(249, 249, 249, 1);
         border: 1px solid rgba(231, 231, 231, 1);
+      }
+
+      .left-column-features {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        color: rgba(26, 36, 44, 1);
+        text-align: left;
+        line-height: 30px;
+      }
+
+      .left-column-answers {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        color: rgba(0, 0, 0, 1);
+        text-align: left;
       }
     }
     .application-list-img {
