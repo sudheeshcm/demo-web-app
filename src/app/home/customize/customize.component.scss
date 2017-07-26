@@ -88,15 +88,55 @@
         color: rgba(26, 36, 44, 1);
         text-align: left;
       }
+
+      .list-item {
+        height: 90px;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(231, 231, 231, 1);
+      }
+
+      .show-more {
+        background: no-repeat center center / 24px 24px url('./../apply-online/images/plus-icon.png');
+      }
+
+      .show-less {
+        background: no-repeat center center / 24px 24px url('./../apply-online/images/minus-icon.png');
+
+      }
+
+      .header-image {
+        background: no-repeat left center / 200px 35px url('./../apply-online/images/asu-icon.png');
+      }
+
+      .edit {
+        width: 30px;
+        height: 18px;
+        background: no-repeat left center / 19px 18px url('./../apply-online/images/edit.png');
+        display: inline-block;
+      }
+
+      .delete {
+        width: 14px;
+        height: 18px;
+        background: no-repeat left center / 14px 18px url('./../apply-online/images/delete.png');
+        display: inline-block;
+      }
+
+      .first-item-details {
+        height: 176px;
+        background-color: rgba(249, 249, 249, 1);
+        border: 1px solid rgba(231, 231, 231, 1);
+      }
+    }
+    .application-list-img {
+      background-image: url('./../apply-online/images/customize-list.png');
+      width: 100%;
+      height: 333px;
+      background-repeat: no-repeat;
+      background-size: 100%;
     }
   }
-  .application-list-img {
-    background-image: url('./../apply-online/images/customize-list.png');
-    width: 100%;
-    height: 333px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+  
 }
 
 .footer-img {

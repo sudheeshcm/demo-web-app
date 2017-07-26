@@ -19,20 +19,32 @@
           <tr class="list-heading">
             <th></th>
             <th>Application Name</th>
-            <th>Curtom URL</th>
+            <th>Custom URL</th>
             <th>Business Division</th>
             <th>Header Image</th>
             <th>Edit</th>
           </tr>
-          <tr class="list-first-item">
-            <td></td>
+          <tr class="list-item">
+            <td
+            [ngClass]="{'show-more': !firstItemClicked,
+            'show-less': firstItemClicked}"
+            (click)="expandItem(1)">
+            </td>
             <td>Arizona State University</td>
             <td>https://www.studiesabroad.com/apply/asu ISA</td>
             <td>ISA</td>
-            <td></td>
-            <td></td>
+            <td class="header-image"></td>
+            <td>
+              <div class="edit"></div>
+              <div class="delete"></div>
+            </td>
           </tr>
         </table>
+        <div
+        *ngIf="firstItemClicked"
+        class="first-item-details">
+
+        </div>
         <div class="application-list-img"></div>
       </div>
     </div>
