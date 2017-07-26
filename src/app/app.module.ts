@@ -14,6 +14,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { ApplyOnlineComponent } from './home/apply-online/apply-online.component';
+import { EditApplicationComponent } from './home/edit-application/edit-application.component';
+
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
 import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
 
@@ -37,7 +39,12 @@ import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
       {
         path: 'apply',
         component: ApplyOnlineComponent
+      },
+      {
+        path: 'edit',
+        component: EditApplicationComponent
       }
+
     ]),
     NoopAnimationsModule,
     AlertModule.forRoot(),
@@ -52,7 +59,8 @@ import { DropdownBasicComponent } from './shared/dropdown/dropdown.component';
     DashboardComponent,
     ProgressBarComponent,
     ApplyOnlineComponent,
-    DropdownBasicComponent
+    DropdownBasicComponent,
+    EditApplicationComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
